@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using System.Threading; 
+using System.Threading;
 namespace WhatsAppassistant_AtSelenium
 {
     public partial class Form1 : Form
@@ -41,7 +41,6 @@ namespace WhatsAppassistant_AtSelenium
 
         private void btn_qr_Click(object sender, EventArgs e)
         {
-            devam= true;
             btn_run.Enabled = true;
 
         }
@@ -76,41 +75,48 @@ namespace WhatsAppassistant_AtSelenium
             {
                 try
                 {
-                    
+
                     WebElement filter = (WebElement)driver.FindElement(By.CssSelector("#side > div._3gYev > div > button > div > span"));
                     filter.Click();
                     List<IWebElement> elements = driver.FindElements(By.ClassName("_8nE1Y")).ToList();
                     WebElement messagearea;
                     Text = rtbx_metin.Text;
                     foreach (IWebElement v in elements)
-                    { 
-                    Thread.Sleep(5000);
-                    v.Click();
-                    messagearea = (WebElement)driver.FindElement(By.ClassName("_3Uu1_"));
-                    messagearea.Click();
-                    messagearea.SendKeys(Texttbx);
-                    messagearea.SendKeys(OpenQA.Selenium.Keys.Enter);
-                    }
+                    {
+                        Thread.Sleep(5000);
+                        v.Click();
 
-                }catch(Exception ex) { continue; }
+                        if (!Texttbx.Equals(""))
+                        {
+                            messagearea = (WebElement)driver.FindElement(By.ClassName("_3Uu1_"));
+                            messagearea.Click();
+                            messagearea.SendKeys(Texttbx);
+                            messagearea.SendKeys(OpenQA.Selenium.Keys.Enter);
+
+                        }
+                    }
+                }
+                catch (Exception ex) { continue; }
                 finally
                 {
+                    int dk = 60 * 60;
+                    int saat = 60 * dk;
+                    Thread.Sleep((saat) * 1000);
                     driver.Navigate().Refresh();
-                    Thread.Sleep((10)*1000);
 
                 }
 
 
-            } 
+            }
 
 
         }
 
         private void help_btn_Click(object sender, EventArgs e)
         {
-            string fileName = @"D:\C#_Projects\WhatsAppassistant-AtSelenium\Readme.txt"; 
-            System.Diagnostics.Process.Start(fileName); 
+            string fileName = @"D:\C#_Projects\1\WhatsAppassistant-AtSelenium\Readme.txt";
+            System.Diagnostics.Process.Start(fileName);
         }
     }
-    
+
 }
