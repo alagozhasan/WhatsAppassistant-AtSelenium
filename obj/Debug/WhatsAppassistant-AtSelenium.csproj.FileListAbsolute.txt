@@ -1,0 +1,16 @@
+D:\C#_Projects\WhatsAppassistant-AtSelenium\bin\Debug\WhatsAppassistant-AtSelenium.exe.config
+D:\C#_Projects\WhatsAppassistant-AtSelenium\bin\Debug\WhatsAppassistant-AtSelenium.exe
+D:\C#_Projects\WhatsAppassistant-AtSelenium\bin\Debug\WhatsAppassistant-AtSelenium.pdb
+D:\C#_Projects\WhatsAppassistant-AtSelenium\obj\Debug\WhatsAppassistant-AtSelenium.csproj.AssemblyReference.cache
+D:\C#_Projects\WhatsAppassistant-AtSelenium\obj\Debug\WhatsAppassistant-AtSelenium.csproj.SuggestedBindingRedirects.cache
+D:\C#_Projects\WhatsAppassistant-AtSelenium\obj\Debug\WhatsAppassistant_AtSelenium.Form1.resources
+D:\C#_Projects\WhatsAppassistant-AtSelenium\obj\Debug\WhatsAppassistant_AtSelenium.Properties.Resources.resources
+D:\C#_Projects\WhatsAppassistant-AtSelenium\obj\Debug\WhatsAppassistant-AtSelenium.csproj.GenerateResource.cache
+D:\C#_Projects\WhatsAppassistant-AtSelenium\obj\Debug\WhatsAppassistant-AtSelenium.csproj.CoreCompileInputs.cache
+D:\C#_Projects\WhatsAppassistant-AtSelenium\obj\Debug\WhatsAppassistant-AtSelenium.exe
+D:\C#_Projects\WhatsAppassistant-AtSelenium\obj\Debug\WhatsAppassistant-AtSelenium.pdb
+D:\C#_Projects\WhatsAppassistant-AtSelenium\bin\Debug\selenium-manager\linux\selenium-manager
+D:\C#_Projects\WhatsAppassistant-AtSelenium\bin\Debug\selenium-manager\macos\selenium-manager
+D:\C#_Projects\WhatsAppassistant-AtSelenium\bin\Debug\selenium-manager\windows\selenium-manager.exe
+D:\C#_Projects\WhatsAppassistant-AtSelenium\bin\Debug\WebDriver.dll
+D:\C#_Projects\WhatsAppassistant-AtSelenium\obj\Debug\WhatsAppassistant-AtSelenium.csproj.CopyComplete

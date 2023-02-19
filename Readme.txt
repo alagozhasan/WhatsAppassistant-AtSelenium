@@ -1,0 +1,16 @@
+﻿Kullanma talimatları yazar
+loreadasd
+asdasdasd
+asdasdasd
+asdasdsad
+asdasdasd
+asdasdasdasdasd
+asdasdasdas
+dsadasdasdasdasdasfasasf
+asdafdas
+flasfa
+asdfkdsafkasdif
+afdslaşfksdşfk
+adfsşfkasşdlfk
+
+sşdflkadisf
