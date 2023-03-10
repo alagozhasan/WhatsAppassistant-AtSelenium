@@ -11,3 +11,4 @@ selenium kütüphanesi ni indirdiğimiz kısım olan referanslar-> üzerinden in
 Uygulama çalışınc direkt wp web sitesine giriyor öncelikle qr kodunuzu okutuyorsunuz 
 ardından kodu okuttum butonuna basıp yollamak istediğimiz metni giriyoruz
 uygulama bize gelen mesajlara daha doğrusu okunmamış mesajlara istediğimiz hazır cevabı vermekte.
+  Daha sonradan tekrar geliştirmeye devam edeceğim
